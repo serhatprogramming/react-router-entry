@@ -39,6 +39,9 @@ const App = () => {
         <Route path="/notes" element={<Notes />} />
         <Route path="/users" element={<Users />} />
       </Routes>
+      <div>
+        <i>Note app, Department of Computer Science 2023</i>
+      </div>
     </Router>
   );
 };
